@@ -1,0 +1,81 @@
+/* Basic Reset for body and list elements */
+body, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #333; /* Dark background for the navbar */
+    padding: 10px 20px; /* Space around the navbar */
+  }
+  
+  .navbar-links {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Display list items in a row */
+    justify-content: center; /* Center the list items horizontally */
+  }
+  
+  .navbar-links li:not(:first-child) {
+    margin: 0 30px; /* Space between each navbar item */
+    padding: 7px;
+  }
+  
+  .navbar-links a {
+    text-decoration: none; /* Remove the underline from links */
+    color: white; /* Set text color to white */
+    font-size: 18px; /* Set font size */
+    padding: 8px 16px;
+    border-radius: 4px; 
+  }
+  
+  .navbar-links a:not(:first-child):hover {
+    background-color: #575757; 
+  }
+
+
+  .boldline{
+    font-weight: bold;
+    font-size: 30px !important;
+  }
+  .btn-style span{
+     color: #FFF;  
+  }
+  .create-note:hover .btn-style span  {
+    color: #333 !important;  
+ }
+
+ /* a.btn-outline-light:hover + .div-style span{
+    color: #333 !important;  
+ } */
+
+
+ .note-date{
+    position: absolute;
+    right: 6px;
+    bottom: 1px;
+    color: #575757;
+
+ }
+ .card-header{
+    color: #696d6b;
+    background: #cbc4ff4f;
+    padding: 6px 20px !important;
+ }
+
+ .btn-delete{
+
+    border: none;
+    background-color: #e8e7f24f;
+ }
+
+ .btn-delete i{
+
+  color: #797978 !important;
+}
+form.link1, a.link1 {
+  display: inline-block;
+  vertical-align: middle; 
+  color: #696d6b;
+  
+}
